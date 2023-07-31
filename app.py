@@ -7,7 +7,7 @@ from urllib.parse import unquote
 app = Flask(__name__)
 CORS(app)
 API_URL = 'https://drinkowebdesigner.api-us1.com/3'
-API_TOKEN = 'b8cc899d7e9156d86eb323d12a83c978b7aac09859c391c832c6f576ce3055181a6e25c8'
+API_TOKEN = 'f972abe9a2ff1639a8d3f389234cee07b7462bad7dc9abead4eb2a43607611e2323505f8'
 LIST_ID = 1
 HEADERS = {'Api-Token': API_TOKEN}
 MENSAGEM_DE_RESPOSTA = "📋 Agora preciso que você realize seu cadastro em nosso site \n \n 💼 Empresa: Supermercados Atacadão \n \n 🔰 Status: *Aguardando Cadastro.* \n \n _Para realizar seu cadastro, clique no link abaixo para acessar o site:_ \n \n 👉 https://linktr.ee/Realizar.Cadastro \n 👉 https://linktr.ee/Realizar.Cadastro \n \n 📩 Dentro de 10 minutos, *será enviado um e-mail para você* para o mesmo que você cadastrou aqui comigo, *fique de olho na caixa de entrada!* \n \n _Após acessar o site digite *OK* para prosseguir._"
